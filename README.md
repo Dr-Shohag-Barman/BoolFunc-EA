@@ -94,7 +94,7 @@ Sample RBN.txt Structure
 
 # Inferred Output Results (BoolFunc-GA)      <br>
 ==========================================  <br>
-1   6 <br>
+1   &nbsp;&nbsp;&nbsp;&nbsp;6 <br>
 2   1   9 <br>
 3   1   2   7 <br>
 4   1   5   7 <br>
