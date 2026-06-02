@@ -44,30 +44,6 @@ by target gene:
 First Column: The Target Gene ID.
 Remaining Columns: The list of predicted Regulator Genes controlling that specific
 target.
-# Example Data Preview
-This file contains discrete-time gene expression data, used as input for BoolFunc-EA, and represented as a sequence of state transitions. Each row corresponds to a time step, while space-separated columns indicate the binary expression state of each gene (0 for OFF, 1 for ON) in the network.
-
-Sample NetworkTransition.txt Dataset <br>
-1 1 1 1 1 0 1 1 1 1 <br>
-1 1 1 0 1 1 1 1 1 0 <br>
-0 1 1 0 1 1 1 1 0 0 <br>
-0 1 1 1 1 1 1 1 0 1 <br>
-0 1 1 1 1 1 0 1 0 1 <br>
-0 1 0 1 1 1 0 0 0 1 <br>
-0 1 0 1 1 0 1 1 1 1 <br>
-1 0 1 1 1 0 1 1 1 0 <br>
-1 1 1 0 0 1 1 1 1 0 <br>
-0 1 1 1 1 1 1 1 1 0 <br>
-0 0 1 1 1 1 0 1 0 0 <br>
-0 1 1 1 0 1 0 0 0 1 <br>
-0 1 0 1 1 1 1 0 1 1 <br>
-0 0 1 1 1 0 1 1 1 0 <br>
-1 0 1 1 0 1 1 1 1 0 <br>
-0 1 1 1 0 1 1 1 1 0 <br>
-0 0 1 1 1 1 1 1 1 0 <br>
-0 0 1 1 0 1 0 1 0 0 <br>
-0 1 1 1 0 1 1 0 1 1 <br>
-0 0 1 1 1 1 1 1 1 0 <br>
 # Gold standard structure 
 A Random Boolean Network (RBN) represents the ground-truth (gold standard) structure. In BoolFunc-EA, it is used as the reference network for evaluating structural accuracy and fitness throughout the evolutionary process. The structure is provided in a three-column, tab-separated format.
 
@@ -100,6 +76,31 @@ Sample RBN.txt Structure<br>
 5 -1 6<br>
 8 -1 3<br>
 4 -1 8<br>
+
+# Time-series gene expression data
+This file contains discrete-time gene expression data generated from the gold-standard structure. It is used as input for BoolFunc-EA and is represented as a sequence of state transitions. Each row corresponds to a time step, while space-separated columns indicate the binary expression state of each gene (0 for OFF, 1 for ON) in the network.
+
+Sample NetworkTransition.txt Dataset <br>
+1 1 1 1 1 0 1 1 1 1 <br>
+1 1 1 0 1 1 1 1 1 0 <br>
+0 1 1 0 1 1 1 1 0 0 <br>
+0 1 1 1 1 1 1 1 0 1 <br>
+0 1 1 1 1 1 0 1 0 1 <br>
+0 1 0 1 1 1 0 0 0 1 <br>
+0 1 0 1 1 0 1 1 1 1 <br>
+1 0 1 1 1 0 1 1 1 0 <br>
+1 1 1 0 0 1 1 1 1 0 <br>
+0 1 1 1 1 1 1 1 1 0 <br>
+0 0 1 1 1 1 0 1 0 0 <br>
+0 1 1 1 0 1 0 0 0 1 <br>
+0 1 0 1 1 1 1 0 1 1 <br>
+0 0 1 1 1 0 1 1 1 0 <br>
+1 0 1 1 0 1 1 1 1 0 <br>
+0 1 1 1 0 1 1 1 1 0 <br>
+0 0 1 1 1 1 1 1 1 0 <br>
+0 0 1 1 0 1 0 1 0 0 <br>
+0 1 1 1 0 1 1 0 1 1 <br>
+0 0 1 1 1 1 1 1 1 0 <br>
 
 # Inferred Results by BoolFunc-GA      <br>
 ==========================================  <br>
