@@ -10,7 +10,7 @@ To execute the BoolFunc-EA and generate the inferred network structure, run the 
 1. Java Development Kit (JDK) 8 or higher installed on your system.
 2. Environment variables properly configured for &#39;javac&#39; and &#39;java&#39; commands.
 # Execution Steps
-1. Ensure NetworkTransition.txt are located in the exact same directory as your project Java files.
+1. Ensure that `NetworkTransition.txt` is placed in the same directory as your Java project files.
 2. Open your terminal/command prompt, navigate to the project folder, and compile the Java files: javac GA.java
 3. Run the compiled class to start the evolutionary inference engine: java GA
 
