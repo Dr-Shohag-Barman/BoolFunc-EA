@@ -96,12 +96,12 @@ Sample RBN.txt Structure
 ==========================================  <br>
 1   &nbsp;&nbsp;&nbsp;&nbsp;6 <br>
 2   &nbsp;&nbsp;&nbsp;&nbsp;1   &nbsp;&nbsp;&nbsp;&nbsp;9 <br>
-3   &nbsp;&nbsp;&nbsp;&nbsp;1   &nbsp;&nbsp;&nbsp;&nbsp;2   &nbsp;&nbsp;&nbsp;&nbsp;7 <br>
-4   &nbsp;&nbsp;&nbsp;&nbsp;1   &nbsp;&nbsp;&nbsp;&nbsp;5   &nbsp;&nbsp;&nbsp;&nbsp;7 <br>
+3   &nbsp;&nbsp;&nbsp;&nbsp;2   &nbsp;&nbsp;&nbsp;&nbsp;7 <br>
+4   &nbsp;&nbsp;&nbsp;&nbsp;1   &nbsp;&nbsp;&nbsp;&nbsp;5 <br>
 5   &nbsp;&nbsp;&nbsp;&nbsp;2 <br>
 6   &nbsp;&nbsp;&nbsp;&nbsp;3 <br>
-7   &nbsp;&nbsp;&nbsp;&nbsp;3   &nbsp;&nbsp;&nbsp;&nbsp;4   &nbsp;&nbsp;&nbsp;&nbsp;5 <br>
-8   &nbsp;&nbsp;&nbsp;&nbsp;1   &nbsp;&nbsp;&nbsp;&nbsp;3   &nbsp;&nbsp;&nbsp;&nbsp;4   &nbsp;&nbsp;&nbsp;&nbsp;7 <br>
+7   &nbsp;&nbsp;&nbsp;&nbsp;4   &nbsp;&nbsp;&nbsp;&nbsp;5   &nbsp;&nbsp;&nbsp;&nbsp;6 <br>
+8   &nbsp;&nbsp;&nbsp;&nbsp;3   &nbsp;&nbsp;&nbsp;&nbsp;4   &nbsp;&nbsp;&nbsp;&nbsp;7 <br>
 9   &nbsp;&nbsp;&nbsp;&nbsp;3   &nbsp;&nbsp;&nbsp;&nbsp;5   &nbsp;&nbsp;&nbsp;&nbsp;6 <br> 
 10   &nbsp;&nbsp;&nbsp;&nbsp;9 <br>
 
