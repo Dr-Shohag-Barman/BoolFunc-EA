@@ -47,27 +47,28 @@ First Column: The Target Gene ID.
 Remaining Columns: The list of predicted Regulator Genes controlling that specific
 target.
 # Example Data Preview
-Sample NetworkTransition.txt Dataset
+Sample NetworkTransition.txt Dataset <br>
 1 1 1 1 1 0 1 1 1 1 <br>
 1 1 1 0 1 1 1 1 1 0 <br>
 0 1 1 0 1 1 1 1 0 0 <br>
-0 1 1 1 1 1 1 1 0 1
-0 1 1 1 1 1 0 1 0 1
-0 1 0 1 1 1 0 0 0 1
-0 1 0 1 1 0 1 1 1 1
-1 0 1 1 1 0 1 1 1 0
-1 1 1 0 0 1 1 1 1 0
-0 1 1 1 1 1 1 1 1 0
-0 0 1 1 1 1 0 1 0 0
-0 1 1 1 0 1 0 0 0 1
-0 1 0 1 1 1 1 0 1 1
-0 0 1 1 1 0 1 1 1 0
-1 0 1 1 0 1 1 1 1 0
-0 1 1 1 0 1 1 1 1 0
-0 0 1 1 1 1 1 1 1 0
-0 0 1 1 0 1 0 1 0 0
-0 1 1 1 0 1 1 0 1 1
-0 0 1 1 1 1 1 1 1 0
+0 1 1 1 1 1 1 1 0 1 <br>
+0 1 1 1 1 1 0 1 0 1 <br>
+0 1 0 1 1 1 0 0 0 1 <br>
+0 1 0 1 1 0 1 1 1 1 <br>
+1 0 1 1 1 0 1 1 1 0 <br>
+1 1 1 0 0 1 1 1 1 0 <br>
+0 1 1 1 1 1 1 1 1 0 <br>
+0 0 1 1 1 1 0 1 0 0 <br>
+0 1 1 1 0 1 0 0 0 1 <br>
+0 1 0 1 1 1 1 0 1 1 <br>
+0 0 1 1 1 0 1 1 1 0 <br>
+1 0 1 1 0 1 1 1 1 0 <br>
+0 1 1 1 0 1 1 1 1 0 <br>
+0 0 1 1 1 1 1 1 1 0 <br>
+0 0 1 1 0 1 0 1 0 0 <br>
+0 1 1 1 0 1 1 0 1 1 <br>
+0 0 1 1 1 1 1 1 1 0 <br>
+
 Sample RBN.txt Structure
 7 -1 6
 
