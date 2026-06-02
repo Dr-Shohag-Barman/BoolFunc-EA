@@ -12,7 +12,7 @@ To execute the BoolFunc-EA and generate the inferred network structure, run the 
 # Execution Steps
 1. Ensure that `NetworkTransition.txt` is placed in the same directory as your Java project files.
 2. Open your terminal/command prompt, navigate to the project folder, and compile the Java files: javac GA.java
-3. Run the compiled class to start the evolutionary inference engine: java GA
+3. Run the compiled class to start the BoolFunc-GA: java GA
 
 # Gold standard structure 
 A Random Boolean Network (RBN) represents the ground-truth (gold standard) structure. In BoolFunc-EA, it is used as the reference network for evaluating structural accuracy and fitness throughout the evolutionary process. The structure is provided in a three-column, tab-separated format.
