@@ -45,6 +45,8 @@ First Column: The Target Gene ID.
 Remaining Columns: The list of predicted Regulator Genes controlling that specific
 target.
 # Example Data Preview
+This file contains discrete-time gene expression data, used as input for BoolFunc-EA, and represented as a sequence of state transitions. Each row corresponds to a time step, while space-separated columns indicate the binary expression state of each gene (0 for OFF, 1 for ON) in the network.
+
 Sample NetworkTransition.txt Dataset <br>
 1 1 1 1 1 0 1 1 1 1 <br>
 1 1 1 0 1 1 1 1 1 0 <br>
