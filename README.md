@@ -91,17 +91,19 @@ Sample RBN.txt Structure
 5 -1 6
 8 -1 3
 4 -1 8
-Inferred Output Results (BoolFunc-GA)
-==========================================
-1 6
-2 1 9
-3 1 2 7
-4 1 5 7
-5 2
-6 3
-7 3 4 5
-8 1 3 4 7
-9 3 5 6
-10 9
+
+Inferred Output Results (BoolFunc-GA)      <br>
+==========================================  <br>
+1 6 <br>
+2 1 9 <br>
+3 1 2 7 <br>
+4 1 5 7 <br>
+5 2 <br>
+6 3 <br>
+7 3 4 5 <br>
+8 1 3 4 7 <br>
+9 3 5 6 <br> 
+10 9 <br>
+
 Looking at the output row for target Gene 3, the evolutionary framework has successfully determined that its expression is regulated by the combination of Gene 1, Gene
 2, and Gene 7.
