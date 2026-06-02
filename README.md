@@ -7,8 +7,8 @@ solution evaluation, and provides a more effective solution representation withi
 # Usage / Execution
 To execute the BoolFunc-EA and generate the inferred network structure, run the main Java class GA.java.
 # Prerequisites:
-Java Development Kit (JDK) 8 or higher installed on your system.
-Environment variables properly configured for &#39;javac&#39; and &#39;java&#39; commands.
+1. Java Development Kit (JDK) 8 or higher installed on your system.
+2. Environment variables properly configured for &#39;javac&#39; and &#39;java&#39; commands.
 # Execution Steps
 1. Ensure NetworkTransition.txt are located in the exact same directory as your
 project Java files.
