@@ -67,6 +67,14 @@ Sample NetworkTransition.txt Dataset <br>
 0 1 1 1 0 1 1 0 1 1 <br>
 0 0 1 1 1 1 1 1 1 0 <br>
 # Gold standard structure 
+A Random Boolean Network (RBN) represents the ground-truth (gold standard) structure. In BoolFunc-EA, it is used as the reference network for evaluating structural accuracy and fitness throughout the evolutionary process. The structure is provided in a three-column, tab-separated format.
+
+Column 1: Regulator Gene ID
+
+Column 2: Interaction Type (1 = Activation / Positive, -1 = Inhibition / Negative)
+
+Column 3: Target Gene ID
+
 To calculate structural accuracy, the following sample network is given: <br>
 
 Sample RBN.txt Structure<br>
