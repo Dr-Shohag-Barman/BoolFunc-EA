@@ -1,12 +1,10 @@
-# BoolFunc-EA
-A Boolean–Evolutionary Approach for Accurate Inference of Gene Regulatory Networks from Time-Series Gene Expression Data
+# BoolFunc-EA: A Boolean–Evolutionary Approach for Accurate Inference of Gene Regulatory Networks from Time-Series Gene Expression Data
+BoolFunc-EA is a two-stage algorithm. First, we employ a set of limited Boolean functions to search for a regulatory gene.
+If a regulatory gene is not identified at this stage, a genetic algorithm is applied to determine a set of regulatory genes.
+In particular, this study introduces a hybrid crossover operator and a new fitness function that enhances information inheritance, improves
+solution evaluation, and provides a more effective solution representation within the proposed genetic algorithm framework. 
 
-BoolFunc-EA is an evolutionary computation-based framework designed to infer Gene Regulatory Networks (GRNs) from time-series gene expression data.
-By leveraging
-evolutionary algorithms (EA) and genetic algorithms (GA), the tool reconstructs the
-underlying Boolean functions and network topologies that govern complex biological
-systems.
-Features
+# Features
  Time-Series Inference: Reverse-engineers network topology directly from discrete time-
 series gene expression transitions.
  Evolutionary Optimization: Uses advanced genetic algorithms to navigate the massive
