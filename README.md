@@ -68,7 +68,7 @@ Sample NetworkTransition.txt Dataset <br>
 0 0 1 1 0 1 0 1 0 0 <br>
 0 1 1 1 0 1 1 0 1 1 <br>
 0 0 1 1 1 1 1 1 1 0 <br>
-#Gold standard structure 
+# Gold standard structure 
 To calculate structural accuracy, the following sample network is given: <br>
 
 Sample RBN.txt Structure<br>
