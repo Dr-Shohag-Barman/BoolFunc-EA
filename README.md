@@ -68,31 +68,32 @@ Sample NetworkTransition.txt Dataset <br>
 0 0 1 1 0 1 0 1 0 0 <br>
 0 1 1 1 0 1 1 0 1 1 <br>
 0 0 1 1 1 1 1 1 1 0 <br>
+#Gold standard structure 
+To calculate structural accuracy, the following sample network is given: <br>
 
-Sample RBN.txt Structure
-7 -1 6
+Sample RBN.txt Structure<br>
+7 -1 6<br>
+6 1 7<br>
+5 -1 8<br>
+8 -1 9<br>
+0 1 1<br>
+1 -1 2<br>
+0 -1 3<br>
+5 -1 0<br>
+1 1 4<br>
+4 -1 3<br>
+2 1 5<br>
+6 1 2<br>
+8 -1 1<br>
+3 -1 6<br>
+2 -1 7<br>
+2 -1 8<br>
+4 -1 6<br>
+5 -1 6<br>
+8 -1 3<br>
+4 -1 8<br>
 
-6 1 7
-5 -1 8
-8 -1 9
-0 1 1
-1 -1 2
-0 -1 3
-5 -1 0
-1 1 4
-4 -1 3
-2 1 5
-6 1 2
-8 -1 1
-3 -1 6
-2 -1 7
-2 -1 8
-4 -1 6
-5 -1 6
-8 -1 3
-4 -1 8
-
-# Inferred Output Results (BoolFunc-GA)      <br>
+# Inferred Results by BoolFunc-GA      <br>
 ==========================================  <br>
 1   &nbsp;&nbsp;&nbsp;&nbsp;6 <br>
 2   &nbsp;&nbsp;&nbsp;&nbsp;1   &nbsp;&nbsp;&nbsp;&nbsp;9 <br>
