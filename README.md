@@ -105,5 +105,5 @@ Sample RBN.txt Structure
 9   &nbsp;&nbsp;&nbsp;&nbsp;3   &nbsp;&nbsp;&nbsp;&nbsp;5   &nbsp;&nbsp;&nbsp;&nbsp;6 <br> 
 10   &nbsp;&nbsp;&nbsp;&nbsp;9 <br>
 
-Looking at the output row for target Gene 3, the evolutionary framework has successfully determined that its expression is regulated by the combination of Gene 1, Gene
-2, and Gene 7.
+Looking at the output row for target Gene 9, the evolutionary framework has successfully determined that its expression is regulated by the combination of Gene 3, Gene
+5, and Gene 6.
