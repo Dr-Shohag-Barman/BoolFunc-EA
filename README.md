@@ -14,6 +14,28 @@ To execute the BoolFunc-EA and generate the inferred network structure, run the 
 2. Open your terminal/command prompt, navigate to the project folder, and compile the Java files: javac GA.java
 3. Run the compiled class to start the BoolFunc-GA: java GA
 
+## Running `GA.java` in Eclipse
+
+1. Open **Eclipse** and import the **BoolFunc-EA** project.
+2. In **Package Explorer**, open **ga → GA.java**.
+3. Ensure `GA.java` contains the `main()` method.
+4. Right-click **GA.java** and select **Run As → Java Application** (or press **Ctrl + F11**).
+5. View the output in the **Console** window.
+
+## Running `GA.java` in NetBeans
+
+1. Open **NetBeans** and open the **BoolFunc-EA** project.
+2. In **Projects**, expand **Source Packages → ga → GA.java**.
+3. Ensure `GA.java` contains the `main()` method.
+4. Right-click **GA.java** and select **Run File** (or press **Shift + F6**).
+5. View the output in the **Output** window.
+
+## Note
+
+- Ensure all dependent classes are present in the project.
+- Keep the input files (`NetworkTransition.txt` and `RBN.txt`) in the project directory before running the program.
+- Resolve any compilation errors before executing `GA.java`.
+
 # Gold standard structure 
 A Random Boolean Network (RBN) represents the ground-truth (gold standard) structure. In BoolFunc-EA, it is used as the reference network for evaluating structural accuracy and fitness throughout the evolutionary process. The structure is provided in a three-column, tab-separated format.
 
