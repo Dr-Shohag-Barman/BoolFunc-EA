@@ -153,5 +153,3 @@ Target  Regulators
 - **Target Gene 10** is regulated by **Gene 9**.
 
 > **Example:** The output row `9    3    5    6` indicates that **Target Gene 9** is predicted to be regulated by **Gene 3**, **Gene 5**, and **Gene 6**.
-10   &nbsp;&nbsp;&nbsp;&nbsp;9 <br>
-
