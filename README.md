@@ -49,7 +49,7 @@ To execute the BoolFunc-EA and generate the inferred network structure, run the 
 ## Note
 
 > - Ensure all dependent Java classes are included in the project.
-> - Place the required input files (`NetworkTransition.txt` and `RBN.txt`) in the project directory before execution.
+> - Place the required input files (`NetworkTransition.txt` and `RBN.txt`(Needed for accuracy)) in the project directory before execution.
 > - Resolve any compilation errors before running `GA.java`.
 
 # Gold standard structure 
