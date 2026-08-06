@@ -6,9 +6,15 @@ solution evaluation, and provides a more effective solution representation withi
 
 # Usage / Execution
 To execute the BoolFunc-EA and generate the inferred network structure, run the main Java class GA.java.
-# Prerequisites:
-1. Java Development Kit (JDK) 8 or higher installed on your system.
-2. Environment variables properly configured for &#39;javac&#39; and &#39;java&#39; commands.
+## Prerequisites
+Before running the project in **Eclipse** or **Apache NetBeans**, ensure the following requirements are met:
+- **Java Development Kit (JDK) 8 or later** is installed and configured.
+- **Eclipse IDE** or **Apache NetBeans IDE** is installed.
+- The **BoolFunc-EA** project is imported into the IDE.
+- All Java source files and dependent classes are present in the project.
+- The required input files (`NetworkTransition.txt` and `RBN.txt`) are located in the project directory.
+- The project builds successfully without compilation errors.
+- `GA.java` contains the `public static void main(String[] args)` method, which serves as the program entry point.
 # Execution Steps
 ## Running `GA.java` from the Command Prompt
 
