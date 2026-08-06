@@ -12,7 +12,7 @@ To execute the BoolFunc-EA and generate the inferred network structure, run the 
 # Execution Steps
 ## Running `GA.java` from the Command Prompt
 
-1. Ensure that `NetworkTransition.txt`(Mandatory needed) and `RBN.txt`(Needed for accuracy) are located in the project directory.
+1. Ensure that `NetworkTransition.txt`(Mandatory) and `RBN.txt`(Needed for accuracy) are located in the project directory.
 2. Open **Command Prompt** (Windows) or **Terminal** (Linux/macOS).
 3. Navigate to the project folder:
    ```bash
