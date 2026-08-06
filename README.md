@@ -134,5 +134,44 @@ For example, in the output row for target gene 9, the evolutionary framework ide
 7   &nbsp;&nbsp;&nbsp;&nbsp;4   &nbsp;&nbsp;&nbsp;&nbsp;5   &nbsp;&nbsp;&nbsp;&nbsp;6 <br>
 8   &nbsp;&nbsp;&nbsp;&nbsp;3   &nbsp;&nbsp;&nbsp;&nbsp;4   &nbsp;&nbsp;&nbsp;&nbsp;7 <br>
 9   &nbsp;&nbsp;&nbsp;&nbsp;3   &nbsp;&nbsp;&nbsp;&nbsp;5   &nbsp;&nbsp;&nbsp;&nbsp;6 <br> 
+
+
+## Output Format
+
+After execution, **BoolFunc-EA** generates the inferred **Gene Regulatory Network (GRN)**. Each row of the output represents a **target gene** and its **predicted regulator gene(s)**.
+
+### Output Description
+
+| Column | Description |
+|--------|-------------|
+| **First Column** | Target gene |
+| **Remaining Columns** | Predicted regulator gene(s) controlling the target gene |
+
+### Example Output
+
+```text
+Target  Regulators
+------------------
+1       6
+2       1  9
+3       2  7
+4       1  5
+5       2
+6       3
+7       4  5  6
+8       3  4  7
+9       3  5  6
+10      9
+```
+
+### Interpretation
+
+- **Target Gene 1** is regulated by **Gene 6**.
+- **Target Gene 2** is regulated by **Genes 1 and 9**.
+- **Target Gene 7** is regulated by **Genes 4, 5, and 6**.
+- **Target Gene 9** is regulated by **Genes 3, 5, and 6**.
+- **Target Gene 10** is regulated by **Gene 9**.
+
+> **Example:** The output row `9    3    5    6` indicates that **Target Gene 9** is predicted to be regulated by **Gene 3**, **Gene 5**, and **Gene 6**.
 10   &nbsp;&nbsp;&nbsp;&nbsp;9 <br>
 
